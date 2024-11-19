@@ -1,0 +1,36 @@
+/*# כל הזכויות שמורות לנחמי אלבוים*/
+//עיצוב עבור כל העמוד 
+@mixin fontstyle($font)
+{
+    font-size: 18px;
+    font-family: $font;
+    color: aqua;
+}
+body{
+    @include fontstyle("Arial")
+}
+//עיצוב עבור הפריטים שבתוך הרשימות
+li
+{   
+    a{
+        color: gray;
+        text-decoration: none;
+    }
+    button{
+        border-radius: 10px;
+        &:hover{
+            opacity:0.7;
+        }       
+    } 
+}
+//עיצוב4 המחלקות 
+@each $name,$color,$cursor in((text-success,green,pointer),(text-dangerous,black,pointer),(text-info,rgb(66, 39, 43),help),(text-warning,rgb(112, 4, 4),default))
+{
+     .#{$name}{color:$color;cursor:$cursor;background-color:lighten($color,50);font-weight: 500;}
+}
+//עיצוב 12 המחלקות
+@for $i from 1 through 12 {.column-#{$i}{width:$i/12*100%;background-color: pink;}}
+     
+
+
+

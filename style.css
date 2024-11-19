@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*# כל הזכויות שמורות לנחמי אלבוים*/
+body {
+  font-size: 18px;
+  font-family: "Arial";
+  color: aqua;
+}
+
+li a {
+  color: gray;
+  text-decoration: none;
+}
+li button {
+  border-radius: 10px;
+}
+li button:hover {
+  opacity: 0.7;
+}
+
+.text-success {
+  color: green;
+  cursor: pointer;
+  background-color: #80ff80;
+  font-weight: 500;
+}
+
+.text-dangerous {
+  color: black;
+  cursor: pointer;
+  background-color: gray;
+  font-weight: 500;
+}
+
+.text-info {
+  color: rgb(66, 39, 43);
+  cursor: help;
+  background-color: #c7a1a6;
+  font-weight: 500;
+}
+
+.text-warning {
+  color: rgb(112, 4, 4);
+  cursor: default;
+  background-color: #fa7979;
+  font-weight: 500;
+}
+
+.column-1 {
+  width: 8.3333333333%;
+  background-color: pink;
+}
+
+.column-2 {
+  width: 16.6666666667%;
+  background-color: pink;
+}
+
+.column-3 {
+  width: 25%;
+  background-color: pink;
+}
+
+.column-4 {
+  width: 33.3333333333%;
+  background-color: pink;
+}
+
+.column-5 {
+  width: 41.6666666667%;
+  background-color: pink;
+}
+
+.column-6 {
+  width: 50%;
+  background-color: pink;
+}
+
+.column-7 {
+  width: 58.3333333333%;
+  background-color: pink;
+}
+
+.column-8 {
+  width: 66.6666666667%;
+  background-color: pink;
+}
+
+.column-9 {
+  width: 75%;
+  background-color: pink;
+}
+
+.column-10 {
+  width: 83.3333333333%;
+  background-color: pink;
+}
+
+.column-11 {
+  width: 91.6666666667%;
+  background-color: pink;
+}
+
+.column-12 {
+  width: 100%;
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */
